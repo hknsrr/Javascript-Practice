@@ -15,8 +15,6 @@
             var openers = ["{", "[", "("];
             var closers = ["}", "]", ")"];
 
-            var check = false;
-
             for (let index = 0; index < res.length; index++) {
                 var char = res[index]
                 if(openers.indexOf(char) > -1) {
@@ -32,13 +30,11 @@
             } 
             return true;
         }
-
         console.log(check('{asdfas{dgsd(sfdgsdfg)sdgsdf}[asdfads]}'));
     </script>
 </head>
 
 <body>
-
 </body>
 
 </html>
